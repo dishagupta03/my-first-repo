@@ -33,3 +33,46 @@ let hello = String(num1)
 //"3abc" => NaN     0 => false
 //true => 1         "" => 0
 //false => 0        "Disha" => 1
+
+/*-----------------------------------------Operations--------------------------------------------------------*/
+let value1 = 3
+let NegValue = -value1
+//console.log(NegValue)
+
+let str1 = "Hello"
+let str2 = " Disha"
+let str3 = str1 + str2
+//console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+"2");
+console.log("1"+2+2);
+console.log(1+2+"3");
+
+console.log(true);
+console.log(+true);
+//console.log(true);
+console.log(+"");
+
+//console.log(true+);   error
+
+/*let number1, number2, number3
+number1 = number2 = number3 = 2+2    not a good practice */
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
+
+//prefix and postfix 
+
+let x = 3
+const y = x++
+console.log("x = ", x ," y = ", y)   //postfix
+
+let w = 3
+const z = ++w
+console.log("w = ", w ," z = ", z)   //prefix
+
+/*postfix - phle value use hoti bad me change hoti he 
+  prifix - phle value change hoti he bad me use hoti he */
