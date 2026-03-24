@@ -62,3 +62,23 @@ console.log(typeof heros);        //object
 console.log(typeof myObj);       //object
 console.log(typeof myFunction);      //function 
 
+/*---------------------------------------------------------------------------------------- */
+/*stack memory (primitive data types) and heap memory (non-primitive data types)*/
+
+let myName = "disha"
+let yourName = myName
+yourName = "gupta"           //any kind od changes will not change the original value becoz here copy of that variable is passed (in stack memory)
+console.log(myName);
+console.log(yourName);
+
+
+let userone = {
+    name : "disha",
+    age:20,
+}                            //any kind of changes will lead changes in the original value becoz reference of that varible is passed (ine heap memory)
+let usertwo = userone
+
+usertwo.name = "gupta"
+console.log(userone);
+console.log(usertwo);
+
